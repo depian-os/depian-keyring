@@ -1,0 +1,17 @@
+pkgname='deepin-keyring-git'
+pkgver='20220517'
+pkgrel=1
+pkgdesc='Deepin PGP keyring'
+arch=('any')
+url='https://github.com/deepin-community/deepin-keyring'
+license=('GPL')
+depends=('archlinux-keyring')
+optdepends=('pkgstats: install to submit package usage statistics')
+install="deepin-keyring.install"
+source=('source.tar.gz')
+sha512sums=('SKIP')
+package() {
+  cd "$deepin_source_name"
+  mkdir -p $pkgdir/usr/share/keyrings/
+  install -m644 keyrings/deepin-archive-camel-keyring.gpg $pkgdir/usr/share/keyrings/
+}

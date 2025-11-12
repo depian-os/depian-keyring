@@ -1,0 +1,1 @@
+rm_conffile /etc/apt/trusted.gpg.d/depian-pools-keyrings.gpg 2025.11.12~~

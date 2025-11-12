@@ -1,0 +1,2 @@
+package-installs-apt-keyring etc/apt/trusted.gpg.d/depian-pools-keyrings.gpg
+package-installs-apt-keyring etc/apt/trusted.gpg.d/deepin-app-store-home.gpg

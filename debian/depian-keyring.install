@@ -1,0 +1,4 @@
+keyrings/deepin-app-store-home.gpg /etc/apt/trusted.gpg.d/
+keyrings/deepin-app-store-home.gpg /usr/share/keyrings/
+keyrings/depian-pools-keyrings.gpg  /usr/share/keyrings/
+keyrings/depian-pools-keyrings.gpg /etc/apt/trusted.gpg.d/
